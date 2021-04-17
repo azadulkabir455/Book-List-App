@@ -33,14 +33,23 @@ input[type="submit"]:hover {
     color: white;
 
 }
+table th {
+    background-color: tomato;
+    color: #eee;
+}
 table {
     margin-top: 50px;
     width: 104%;
-    border: 1px solid #999;
+    border: 1px solid tomato;
     border-collapse:collapse;
 }
-
-table th,td {
+table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+table th {
+    text-align:left
+}
+table th,td {   
     padding: 10px;
-    border: 1px solid #999;
+    border-bottom: 1px solid tomato;
 }
