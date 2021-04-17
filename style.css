@@ -1,0 +1,46 @@
+.container {
+    width: 40%;
+    margin:40px auto;
+}
+.container h1 {
+    text-align: center;
+    color:tomato;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.from-group lebel {
+    display:block;
+    margin-bottom:5px;
+}
+.from-group input {
+    width:100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    outline:none;
+    margin-bottom: 15px;
+}
+input[type="submit"] {
+    padding:12px 25px;
+    border:none;
+    background-color: lightpink;
+    text-transform:uppercase;
+    transition: .1s linear;
+
+}
+input[type="submit"]:hover {
+    background-color: tomato;
+    color: white;
+
+}
+table {
+    margin-top: 50px;
+    width: 104%;
+    border: 1px solid #999;
+    border-collapse:collapse;
+}
+
+table th,td {
+    padding: 10px;
+    border: 1px solid #999;
+}
